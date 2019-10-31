@@ -1,4 +1,4 @@
-# REVOLUT Money Transfer
+# Money Transfer
 
 ### Requirements
 
