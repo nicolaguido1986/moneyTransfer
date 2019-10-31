@@ -1,22 +1,20 @@
-import static com.revolut.bank.util.JsonUtil.json;
-import static com.revolut.bank.util.JsonUtil.toJson;
-import static spark.Spark.after;
+import static com.example.bank.util.JsonUtil.json;
+import static com.example.bank.util.JsonUtil.toJson;
 import static spark.Spark.exception;
 import static spark.Spark.get;
-import static spark.Spark.port;
 import static spark.Spark.post;
 import static spark.Spark.put;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
-import com.revolut.bank.account.Account;
-import com.revolut.bank.account.AccountDao;
-import com.revolut.bank.account.AccountService;
-import com.revolut.bank.exception.ResourceNotFoundException;
-import com.revolut.bank.exception.ResponseError;
-import com.revolut.bank.exception.TransferException;
-import com.revolut.bank.transfer.Transfer;
-import com.revolut.bank.transfer.TransferService;
+import com.example.bank.account.Account;
+import com.example.bank.account.AccountDao;
+import com.example.bank.account.AccountService;
+import com.example.bank.exception.ResourceNotFoundException;
+import com.example.bank.exception.ResponseError;
+import com.example.bank.exception.TransferException;
+import com.example.bank.transfer.Transfer;
+import com.example.bank.transfer.TransferService;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

@@ -1,7 +1,7 @@
-package com.revolut.bank.account
+package com.example.bank.account
 
-import com.revolut.bank.exception.ResourceNotFoundException
-import com.revolut.bank.exception.TransferException
+import com.example.bank.exception.ResourceNotFoundException
+import com.example.bank.exception.TransferException
 import spock.lang.Specification
 import spock.lang.Subject
 import spock.lang.Unroll

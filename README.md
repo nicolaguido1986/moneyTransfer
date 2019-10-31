@@ -1,4 +1,4 @@
-#REVOLUT Money Transfer
+#Money Transfer
 
 ### Requirements
 
@@ -15,7 +15,7 @@
 
 ### Running the application:
 
-1. Execute the jar in the target folder: `java -jar target/revolut-1.0-SNAPSHOT.jar`
+1. Execute the jar in the target folder: `java -jar target/bank-1.0-SNAPSHOT.jar`
 
 ####NOTE: 
 The application will run on port `0.0.0.0:4567`

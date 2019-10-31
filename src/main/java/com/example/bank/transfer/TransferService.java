@@ -1,8 +1,8 @@
-package com.revolut.bank.transfer;
+package com.example.bank.transfer;
 
-import com.revolut.bank.account.Account;
-import com.revolut.bank.account.AccountService;
-import com.revolut.bank.exception.TransferException;
+import com.example.bank.account.Account;
+import com.example.bank.account.AccountService;
+import com.example.bank.exception.TransferException;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

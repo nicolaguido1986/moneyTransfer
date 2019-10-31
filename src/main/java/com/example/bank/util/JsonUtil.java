@@ -1,4 +1,4 @@
-package com.revolut.bank.util;
+package com.example.bank.util;
 
 import com.google.gson.Gson;
 import spark.ResponseTransformer;

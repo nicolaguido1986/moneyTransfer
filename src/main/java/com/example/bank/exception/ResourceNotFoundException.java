@@ -1,4 +1,4 @@
-package com.revolut.bank.exception;
+package com.example.bank.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
 

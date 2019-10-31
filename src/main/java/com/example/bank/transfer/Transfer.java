@@ -1,4 +1,4 @@
-package com.revolut.bank.transfer;
+package com.example.bank.transfer;
 
 import lombok.AllArgsConstructor;
 import lombok.Value;

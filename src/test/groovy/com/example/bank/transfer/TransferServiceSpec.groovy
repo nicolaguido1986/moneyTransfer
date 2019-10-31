@@ -1,15 +1,14 @@
-package com.revolut.bank.transfer
+package com.example.bank.transfer
 
-import com.revolut.bank.account.Account
-import com.revolut.bank.account.AccountService
-import com.revolut.bank.exception.TransferException
+
+import com.example.bank.exception.TransferException
 import spock.lang.Specification
 import spock.lang.Subject
 import spock.lang.Unroll
 
 class TransferServiceSpec extends Specification {
 
-    AccountService accountService = Mock()
+    com.example.bank.account.AccountService accountService = Mock()
 
     @Subject
     TransferService transferService
@@ -53,8 +52,8 @@ class TransferServiceSpec extends Specification {
     def "createTransfer should be executed correctly"(){
         given:
         Transfer transfer = new Transfer("user_y", "user_x", 10,"")
-        Account sender = Account.builder().amount(10).build()
-        Account receiver = Account.builder().amount(0).build()
+        com.example.bank.account.Account sender = com.example.bank.account.Account.builder().amount(10).build()
+        com.example.bank.account.Account receiver = com.example.bank.account.Account.builder().amount(0).build()
         when:
         transferService.createTransfer(transfer)
 

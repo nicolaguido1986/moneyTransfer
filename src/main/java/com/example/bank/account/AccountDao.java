@@ -1,4 +1,4 @@
-package com.revolut.bank.account;
+package com.example.bank.account;
 
 import java.util.Arrays;
 import java.util.List;
